@@ -12,7 +12,7 @@ dotenv.config();
 
 // Connect to the database
 connect();
-
+app.use(express.static(__dirname + '/public'))
 // Enable CORS for specific origin
 const corsOptions = {
   origin: 'http://localhost:5173' // Allow requests from this origin
@@ -28,6 +28,7 @@ app.use(authRoutes);
 app.use(userRoutes);
 app.use('/getuser', userRoutes);
 app.use('/updateuser',userRoutes)
+
 
 // Serve static files
 console.log("__dirname", __dirname);
