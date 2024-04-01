@@ -1,0 +1,53 @@
+/* Userdetails.css */
+
+.totally {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .imagee {
+    flex: 1;
+  }
+  
+  .imagee img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .formss {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .formss label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formss input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .buttonss {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttonss .button1 button,
+  .buttonss .button2 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .buttonss .button1 button:hover,
+  .buttonss .button2 button:hover {
+    background-color: #0056b3;
+  }
+  

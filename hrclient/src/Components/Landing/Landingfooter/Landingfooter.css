@@ -1,0 +1,29 @@
+/* Landingfooter.css */
+
+footer {
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding inside the footer */
+  }
+  
+  .about, .contact {
+    margin-bottom: 20px; /* Margin between sections */
+  }
+  
+  .about h4, .contact h4 {
+    margin-top: 0;
+  }
+  
+  .about p, .contact ul {
+    margin: 0;
+  }
+  
+  .contact li {
+    list-style: none; /* Remove bullet points from list items */
+  }
+  
+  .copyright p {
+    margin: 0;
+    font-size: 0.8em; /* Font size of copyright notice */
+  }
+  

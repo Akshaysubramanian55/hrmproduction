@@ -1,0 +1,42 @@
+/* Admin.css */
+
+.adminlogin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .adminlogin .hii {
+    text-align: center;
+  }
+  
+  .adminlogin img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .adminlogin h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .adminlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .adminlist li {
+    margin-bottom: 10px;
+  }
+  
+  .query {
+    text-align: center;
+  }
+  
+  .footer {
+    margin-top: 50px;
+  }
+  

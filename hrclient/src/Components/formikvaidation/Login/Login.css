@@ -1,0 +1,63 @@
+/* Login.css */
+
+.loginform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginimage {
+    flex: 1;
+  }
+  
+  .loginimage img {
+    max-width: 100%;
+  }
+  
+  .logindataa {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .logindataa h2 {
+    margin-bottom: 20px;
+  }
+  
+  .landinglogins label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .landinglogins input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .centre {
+    text-align: center;
+  }
+  
+  .centre button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .centre button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

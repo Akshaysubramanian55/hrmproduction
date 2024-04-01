@@ -1,0 +1,31 @@
+.landinggpage{
+    height:80vh;
+  
+  /* background-image: url('../Landing/images/background4.jpg');
+  background-size: cover;
+  background-position: center; */
+  
+}
+.landinggpage h1{
+  margin-top: 50px;
+  color: #0EA2BD;
+}
+.landinggpage img{
+  width: 50%;
+  margin-top: 20px;
+}
+.lorem{
+  margin-top: 20px;
+}
+.started{
+  width: 160px;
+  background-color: #0EA2BD;
+  color: white;
+  margin-left: 40%;
+ 
+}
+.started h2{
+  justify-content: center;
+  align-items: center;
+  
+}

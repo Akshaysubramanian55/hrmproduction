@@ -1,0 +1,41 @@
+/* Admin.css */
+
+.userlogin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .userlogin .hii {
+    text-align: center;
+  }
+  
+  .userlogin img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .userlogin h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .userlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .userlist li {
+    margin-bottom: 10px;
+  }
+  
+  .query {
+    text-align: center;
+  }
+  
+  .footer {
+    margin-top: 50px;
+  }

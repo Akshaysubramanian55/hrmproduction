@@ -1,0 +1,56 @@
+/* Adduser.css */
+
+.dataforms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .adddata {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .adddata h2 {
+    margin-bottom: 20px;
+  }
+  
+  .adddetails label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .adddetails input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .centre {
+    text-align: center;
+  }
+  
+  .centre button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .centre button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mydraw img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
