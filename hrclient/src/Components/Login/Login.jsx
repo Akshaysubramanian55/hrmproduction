@@ -50,7 +50,7 @@ function Login() {
             return;
         }
         try {
-            const response = await axios.post('http://localhost:3100/login', {
+            const response = await axios.post('http://13.53.170.25:3100/login', {
                 email: email,
                 password: password,
 
